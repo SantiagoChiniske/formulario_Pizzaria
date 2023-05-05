@@ -3,4 +3,72 @@
     padding:0; 
     list-style:none; 
     vertical-align:baseline;
+  
+}
+body{
+    background-color: #F29D35;;
+}
+
+#container{
+
+    width: 500px;
+    height: 500px;
+    background-color: #D9430D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 10em;
+}
+
+#nome-email input{
+    border: #FFFFFF;
+    margin-left: 15px;
+    height: 25px;
+    width: 230px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#nome-email p{
+    font-size: 18px;
+}
+#box{
+margin-left: -55px;
+}
+#box label{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#option select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border: #FFFFFF;
+}
+#box p{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#logo-pizza{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+#botão{
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    border: #FFFFFF;
+    
+   align-items: end;
+   background-color: #FFFFFF;
 }
